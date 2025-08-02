@@ -8,6 +8,7 @@
 </head>
 <body>
     <header class="header">
+        <!--navbar-->
         <nav class="nav">
             <div class="nav-brand">
                 <h2>Gracey :)</h2>
@@ -22,7 +23,7 @@
             </ul>
         </nav>
     </header>
-    <!-- hero section home page -->
+    <!-- hero section  my home page -->
     <section id="home" class="hero">
         <div class="hero-content">
             <div>
@@ -36,11 +37,378 @@
             <div class="hero-image">
                 <div class="profile-card">
                     <div class="profile-avatar"></div>
-                    <h3>Your Name</h3>
+                    <h3>Gracey</h3>
                     <p>Full Stack Developer</p>
                 </div>
             </div>
         </div>
     </section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I'm a passionate full-stack developer with a strong foundation in modern web technologies 
+                    and a growing expertise in blockchain development. My journey in tech began with a curiosity 
+                    about how things work, which has evolved into a deep love for creating innovative solutions 
+                    that make a difference.
+                </p>
+                <p>
+                    What drives me is the endless possibility to learn and create. I'm particularly excited about 
+                    the intersection of traditional web development and emerging technologies like Web3, where 
+                    I can build decentralized applications that empower users and create new possibilities.
+                </p>
+                <p>
+                    When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
+                    projects, or sharing knowledge with the developer community. I believe in continuous learning 
+                    and staying at the forefront of technological innovation.
+                </p>
+                </div>
+                <div class="about-visual">
+                    <div class="laptop-mockup">
+                        <div class="laptop-screen">
+                            <div class="code-editor">
+                                <div class="editor-header">
+                                    <div class="editor-tabs">
+                                        <span class="tab active">App.js</span>
+                                        <span class="tab">styles.css</span>
+                                        <span class="tab">index.html</span>
+                                    </div>
+                                </div>
+                                <div class="code-content">
+                                    <div class="code-line">
+                                        <span class="line-number">1</span>
+                                        <span class="code-text"><span class="keyword">import</span> <span class="string">React</span> <span class="keyword">from</span> <span class="string">'react'</span>;</span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="line-number">2</span>
+                                        <span class="code-text"><span class="keyword">import</span> <span class="string">Web3</span> <span class="keyword">from</span> <span class="string">'web3'</span>;</span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="line-number">3</span>
+                                        <span class="code-text"></span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="line-number">4</span>
+                                        <span class="code-text"><span class="keyword">const</span> <span class="function">DApp</span> = () => {</span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="line-number">5</span>
+                                        <span class="code-text">  <span class="keyword">const</span> [<span class="variable">account</span>, <span class="variable">setAccount</span>] = <span class="function">useState</span>();</span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="line-number">6</span>
+                                        <span class="code-text">  <span class="keyword">const</span> [<span class="variable">contract</span>, <span class="variable">setContract</span>] = <span class="function">useState</span>();</span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="line-number">7</span>
+                                        <span class="code-text"></span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="line-number">8</span>
+                                        <span class="code-text">  <span class="keyword">return</span> (</span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="line-number">9</span>
+                                        <span class="code-text">    &lt;<span class="tag">div</span> <span class="attribute">className</span>=<span class="string">"app"</span>&gt;</span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="line-number">10</span>
+                                        <span class="code-text">      &lt;<span class="tag">h1</span>&gt;<span class="string">Web3 DApp</span>&lt;/<span class="tag">h1</span>&gt;</span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="line-number">11</span>
+                                        <span class="code-text">    &lt;/<span class="tag">div</span>&gt;</span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="line-number">12</span>
+                                        <span class="code-text">  );</span>
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="line-number">13</span>
+                                        <span class="code-text">};</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="laptop-base"></div>
+                    </div>
+                    
+                    <div class="floating-elements">
+                        <div class="floating-card tech-card">
+                            <div class="tech-icon">⚛️</div>
+                            <span>React</span>
+                        </div>
+                        <div class="floating-card tech-card">
+                            <div class="tech-icon">🔗</div>
+                            <span>Blockchain</span>
+                        </div>
+                        <div class="floating-card tech-card">
+                            <div class="tech-icon">🚀</div>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="floating-card code-snippet">
+                            <div class="snippet-header">smart-contract.sol</div>
+                            <div class="snippet-code">
+                                <div>pragma solidity ^0.8.0;</div>
+                                <div>contract MyToken {</div>
+                                    <div>  mapping(address => uint) balances;</div>
+                                <div>}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    !-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Programming Languages & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Express.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Blockchain & Web3</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Solidity</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Web3.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Move Language</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Educational Background</h2>
+            <div class="education-content">
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Science Mathematics and  Computer Science</h3>
+                            <p class="institution">Kenyatta University.</p>
+                            <p class="duration">2023 to date </p>
+                            <p class="description">
+                                Focusing on software engineering, data structures, algorithms, and web development.
+                                Also entails various methods of problem solving using mathematics and how it relates with computer science .
+                                
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Web Development Bootcamp</h3>
+                            <p class="institution">KWF and Directed Foundation</p>
+                            <p class="duration">2022 - 2024</p>
+                            <p class="description">
+                                Intensive program covering MERN stack development, RESTful APIs, and modern 
+                                JavaScript frameworks. Built multiple full-stack applications.System desing and UI/uX design.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Blockchain Development Course</h3>
+                            <p class="institution">Online Platforms;SUI ecosystem and cyfrin updraft </p>
+                            <p class="duration">2025</p>
+                            <p class="description">
+                                Comprehensive course on blockchain technology, smart contract development with 
+                                Solidity, Move language and decentralized application (DApp) creation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cv-download">
+                    
+                    </h3>My CV</h3>
+                    <p>Get a detailed overview of my experience, skills, and achievements.</p>
+                    <a href="https://docs.google.com/document/d/1fj-xSP3ArgiwfqzkIEyHSgWQsi-RzgalF_WFqMh69NQ/edit?usp=sharing" class="btn btn-primary">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="interests">
+        <div class="container">
+            <h2 class="section-title">Professional Interests</h2>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="interest-icon">🚀</div>
+                    <h3>Emerging Technologies</h3>
+                    <p>I'm fascinated by cutting-edge technologies like AI, machine learning, and quantum computing, and how they can be integrated into web applications.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">⛓️</div>
+                    <h3>Blockchain & DeFi</h3>
+                    <p>The decentralized future excites me. I love building DApps and exploring how blockchain can revolutionize traditional industries.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">🌐</div>
+                    <h3>Web3 Development</h3>
+                    <p>Creating user-friendly interfaces for complex blockchain interactions and making Web3 accessible to everyone is my passion.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">🔧</div>
+                    <h3>Open Source</h3>
+                    <p>Contributing to open-source projects and collaborating with developers worldwide to build tools that benefit the entire community.</p>
+                </div>
+                <div class="interest-card">
+                    <h3>AI and Machine learning</h3>
+                    <p>Creating AI powered solutions including AI agents .</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">📱</div>
+                    <h3>Mobile Development</h3>
+                    <p>Expanding into mobile app development to create seamless cross-platform experiences using React Native and modern frameworks.</p>
+                </div>
+                <!--contact me section-->
+                <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Whether you're looking for a developer to join your team or need help with a specific project, I'd love to hear from you.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <span>giremunga@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone:</strong>
+                            <span>+254 789 272 403</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Location:</strong>
+                            <span>Nairobi , Kenya</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/giremunga" class="social-link">GitHub</a>
+                        <a href="https://www.linkedin.com/in/grace-munga-a51015271/" class="social-link">LinkedIn</a>
+                        <a href="https://x.com/gorgeousgire" class="social-link">Twitter</a>
+                    </div>
+                     </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+         </section>
+
+         <!--footer section-->
+         <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Grace Munyazi Munga . All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
